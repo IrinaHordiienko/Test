@@ -1,0 +1,67 @@
+:root {
+  --primary-text-color: #111518;
+  --accent-color: #ff6b09;
+  --title-text-color: #212121;
+  --background-col: #2f303a;
+  --background-team: #f5f4fa;
+  --primary-bg-color: #ffffff;
+  --icon-color: #afb1b8;
+  --transform-time: 250ms;
+  --transform-type: cubic-bezier(0.4, 0, 0.2, 1);
+  --border-color: #ececec;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+.link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.icon {
+  fill: currentColor;
+}
+
+.logo-icon {
+  margin: 0 4px;
+  fill: var(--accent-color);
+}
+
+.logo-text {
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 1.23;
+  letter-spacing: 0.04em;
+}
+
+.logo-small {
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 1.25;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.accent {
+  color: var(--accent-color);
+}
