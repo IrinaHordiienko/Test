@@ -1,0 +1,27 @@
+.logo__icon {
+  margin: 0 4px;
+  fill: $brand-color;
+}
+
+.logo__text {
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 1.23;
+  letter-spacing: 0.04em;
+}
+
+.logo__small {
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 1.25;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: $tablet) {
+  .logo__small--accent {
+    color: $brand-color;
+  }
+}
